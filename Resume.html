@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Interactive Resume Builder</h2>
+        <input type="text" id="input-name" placeholder="Enter your name">
+        <input type="text" id="input-email" placeholder="Enter your email">
+        
+        <input type="text" id="input-school" placeholder="Enter your school">
+        <input type="text" id="input-pucollege" placeholder="Enter your PU College">
+        <input type="text" id="input-ugcollege" placeholder="Enter your UG College">
+        <input type="text" id="input-sslcpercentage" placeholder="Enter your SSLC Percentage">
+        <input type="text" id="input-pucpercentage" placeholder="Enter your PUC Percentage">
+        <input type="text" id="input-degree" placeholder="Enter your Degree">
+        <textarea id="input-hobbies" placeholder="Enter your hobbies"></textarea>
+        <textarea id="input-skills" placeholder="Enter your skills"></textarea>
+        <textarea id="input-achievements" placeholder="Enter your achievements"></textarea>
+        <textarea id="input-projects" placeholder="Enter your projects"></textarea>
+        <textarea id="input-summary" placeholder="Enter your summary"></textarea>
+        <textarea id="input-additional-details" placeholder="Enter additional details"></textarea>
+        <button onclick="generateResume()">Generate Resume</button>
+        <div id="resume-preview"></div>
+    </div>
+
+    <script src="resume.js"></script>
+</body>
+</html>
